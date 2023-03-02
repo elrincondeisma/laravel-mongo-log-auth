@@ -25,7 +25,7 @@ return [
             'location' => true,
 
             // The Notification class to send
-            'template' => \Rappasoft\LaravelAuthenticationLog\Notifications\NewDevice::class,
+            'template' => \Elrincondeisma\LaravelMongoLogAuth\Notifications\NewDevice::class,
         ],
         'failed-login' => [
             // Send the FailedLogin notification
@@ -35,7 +35,7 @@ return [
             'location' => true,
 
             // The Notification class to send
-            'template' => \Rappasoft\LaravelAuthenticationLog\Notifications\FailedLogin::class,
+            'template' => \Elrincondeisma\LaravelMongoLogAuth\Notifications\FailedLogin::class,
         ],
     ],
 
